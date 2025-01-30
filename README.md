@@ -151,29 +151,29 @@ This code is based on llama2.c by Andrej Karpathy. Parts of the code are also fr
 
 
 ### My Inplementation Results
-Zero Shot Prompting Zero-Shot Prompting for SST: 
+- Zero Shot Prompting Zero-Shot Prompting for SST: 
 
-reference: Dev Accuracy: 0.213 (0.000) Test Accuracy: 0.224 (0.000) 
+   reference: Dev Accuracy: 0.213 (0.000) Test Accuracy: 0.224 (0.000) 
+   
+   my result: dev acc :: 0.213  test acc :: 0.224
 
-my result: dev acc :: 0.213  test acc :: 0.224
 
+-   Zero-Shot Prompting for CFIMDB:
 
-Zero-Shot Prompting for CFIMDB:
+   reference: Dev Accuracy: 0.498 (0.000) Test Accuracy: -
+   
+   my result: dev acc :: 0.502  test acc :: 0.213
 
-reference: Dev Accuracy: 0.498 (0.000) Test Accuracy: -
+-   Finetuning for SST:
+   
+   reference: Dev Accuracy: 0.414 (0.014) Test Accuracy: 0.418 (0.017)
+   
+   my result: dev acc :: 0.405    test acc :: 0.432
 
-my result: dev acc :: 0.502  test acc :: 0.213
+- Finetuning for CFIMDB:
 
-Finetuning for SST:
-
-reference: Dev Accuracy: 0.414 (0.014) Test Accuracy: 0.418 (0.017)
-
-my result: dev acc :: 0.405    test acc :: 0.432
-
-Finetuning for CFIMDB:
-
-reference: Dev Accuracy: 0.800 (0.115) Test Accuracy: -
-
-my result: dev acc :: 0.894  test acc :: 0.500
+   reference: Dev Accuracy: 0.800 (0.115) Test Accuracy: -
+   
+   my result: dev acc :: 0.894  test acc :: 0.500
 
 
