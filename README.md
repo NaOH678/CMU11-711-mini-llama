@@ -148,3 +148,25 @@ code), but you ***must provide proper attribution***.
 
 ### Acknowledgement
 This code is based on llama2.c by Andrej Karpathy. Parts of the code are also from the [`transformers`](https://github.com/huggingface/transformers) library ([Apache License 2.0](./LICENSE)).
+
+
+### My Inplementation Results
+Zero Shot Prompting Zero-Shot Prompting for SST:
+reference: Dev Accuracy: 0.213 (0.000) Test Accuracy: 0.224 (0.000)
+my result: dev acc :: 0.213  test acc :: 0.224
+
+
+Zero-Shot Prompting for CFIMDB:
+Prompting for CFIMDB: 
+reference: Dev Accuracy: 0.498 (0.000) Test Accuracy: -
+my result: dev acc :: 0.502  test acc :: 0.213
+
+Finetuning for SST:
+reference: Dev Accuracy: 0.414 (0.014) Test Accuracy: 0.418 (0.017)
+my result: dev acc :: 0.405    test acc :: 0.432
+
+Finetuning for CFIMDB:
+reference: Dev Accuracy: 0.800 (0.115) Test Accuracy: -
+my result: dev acc :: 0.894  test acc :: 0.500
+
+
